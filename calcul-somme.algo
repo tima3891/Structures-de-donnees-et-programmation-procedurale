@@ -1,0 +1,20 @@
+ALGORITHM calculate-the-sum
+
+VAR:array_name : ARRAY_OF type[3,1,7,9,2,4,1,9,3];
+nbr,ens1,ens2,sum
+BEGIN
+Read(nbr)
+ens1:={3,1,7,9}
+ens2:={2,4,1,9,3}
+IF (nbr is not in ens1) THEN
+    add to sum
+ELSE
+    not add
+END_IF
+IF (nbr is not in ens2) THEN
+    add to sum
+ELSE
+    not add
+END_IF
+write(sum)
+END
